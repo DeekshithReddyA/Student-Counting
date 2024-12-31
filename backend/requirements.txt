@@ -1,6 +1,6 @@
 Flask==3.1.0
 Flask_Cors==5.0.0
 Pillow==11.0.0
-torch==2.5.1+cu118
-torchvision==0.20.1+cu118
+torch==2.5.1
+torchvision==0.20.1
 waitress==3.0.2
