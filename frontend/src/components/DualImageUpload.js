@@ -394,7 +394,7 @@ const DualImageUpload = ({path}) => {
             disabled:opacity-50 disabled:cursor-not-allowed"
           disabled={!files.first || !files.second}
         >
-          Compare Images
+          Analyze Images
         </button>
       </div>
 
