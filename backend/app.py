@@ -101,7 +101,7 @@ def oneCam():
         return jsonify({'error': str(e)}), 500
     
 env = 'prod'
-port = int(os.environ.get('PORT',5000))
+port = int(os.environ.get('PORT',10000))
 
 if __name__ == '__main__':
     if env == 'dev':
