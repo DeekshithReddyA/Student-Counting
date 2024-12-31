@@ -100,11 +100,11 @@ def oneCam():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
-env = 'dev'
+env = 'prod'
 port = int(os.environ.get('PORT',4000))
 
 if __name__ == '__main__':
     if env == 'dev':
         app.run(host='0.0.0.0', port=port)
     else:
-        serve(app , host='0.0.0.0',port=port)@app.route('/twocam' , methods=['POST'])
+        serve(app , host='0.0.0.0',port=port)
