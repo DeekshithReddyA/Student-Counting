@@ -280,7 +280,7 @@ const DualImageUpload = ({path}) => {
     }
 
     try {
-      const response = await fetch(`http://localhost:4000${path}`, {
+      const response = await fetch(`https://student-counting.onrender.com${path}`, {
         method: 'POST',
         body: formData,
       });
